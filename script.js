@@ -177,7 +177,7 @@ document.addEventListener('DOMContentLoaded', () => {
             } else {
                 modalTitle.textContent = 'Agregar Nuevo Cliente';
                 document.getElementById('fecha_inicio').value = new Date().toISOString().split('T')[0];
-                document.getElementById('dias_contratados').value = 30;
+                document.getElementById('dias_contratados').value = 365;
             }
             actualizarVencimientoDisplay();
             modal.style.display = 'flex';
@@ -204,8 +204,8 @@ document.addEventListener('DOMContentLoaded', () => {
             const dias = parseInt(document.getElementById('dias_contratados').value, 10);
             const fecha_inicio = document.getElementById('fecha_inicio').value;
             
-            if (dias < 1 || dias > 30) {
-                alert('Los días contratados deben estar entre 1 y 30.');
+            if (dias < 1 || dias > 365) {
+                alert('Los días contratados deben estar entre 1 y 365.');
                 return;
             }
 
