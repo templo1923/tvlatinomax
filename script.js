@@ -33,7 +33,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     btnLogout.addEventListener('click', () => {
         sessionStorage.removeItem('isLoggedIn');
-        document.title = '⚡INACTIVO Panel De Control ⚡';
+        document.title = '⚡Panel De Control ⚡';
         mostrarLogin();
     });
 
