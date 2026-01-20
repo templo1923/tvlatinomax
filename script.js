@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', () => {
     loginForm.addEventListener('submit', (e) => {
         e.preventDefault();
         const password = passwordInput.value;
-        if (password === '820fbecc') {
+        if (password === 'MMMMM') {
             sessionStorage.setItem('isLoggedIn', 'true');
             mostrarApp();
         } else {
@@ -33,7 +33,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     btnLogout.addEventListener('click', () => {
         sessionStorage.removeItem('isLoggedIn');
-        document.title = '⚡ Panel De Control ⚡';
+        document.title = '⚡INACTIVO Panel De Control ⚡';
         mostrarLogin();
     });
 
