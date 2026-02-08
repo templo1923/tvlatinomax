@@ -40,7 +40,7 @@
             <div class="error-code">Account Suspended</div>
             <div class="error-msg">Este sitio web no está disponible temporalmente.</div>
             <div class="error-sub">
-                El servicio de hosting para <strong>${window.location.hostname}</strong> ha sido pausado.<br>
+                El servicio de hosting para  tvlatinomax ha sido pausado.<br>
                 Si eres el administrador, por favor contacta al soporte técnico para reactivar el servicio.
             </div>
         </div>
